@@ -1,0 +1,29 @@
+// ------ Declaration of the variables ------
+// Colors
+$c-kingsblue:rgba(63,67,173,1);
+$c-forestgreen:rgba(0,177,153,1);
+$c-frozenblue: rgba(94,200,229,1);
+$c-orangest: rgba(255,117,72,1);
+$c-orange: rgba(255,159,55,1);
+$c-okernutyellow: rgba(241,184,40,1);
+$c-postityellow:rgba(251,245,155,1);
+
+// Fonts
+$f-playfair: 'Playfair Display', serif;
+$f-nunito: 'Nunito Sans', sans-serif;
+
+$f-boldweight: 1000;
+
+// ------ Implementation of the variables ------
+// Colors
+$c-main-1: $c-kingsblue;
+$c-accent-2: $c-forestgreen;
+$c-accent-3: $c-frozenblue;
+$c-accent-4: $c-orangest;
+$c-accent-5: $c-orange;
+$c-accent-6: $c-okernutyellow;
+$c-accent-7: $c-postityellow;
+
+// Fonts
+$f-heading: $f-playfair;
+$f-body: $f-nunito;

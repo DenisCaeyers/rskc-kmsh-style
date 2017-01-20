@@ -1,0 +1,5 @@
+# ignore all node_modules to github
+node_modules/
+
+# ignote all bower_components to github
+bower_components/

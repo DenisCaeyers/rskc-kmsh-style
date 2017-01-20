@@ -1,0 +1,63 @@
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Playfair+Display');
+
+// All variables
+@import "variables";
+
+//Headings
+.kmsh-h1, .kmsh-h2, .kmsh-h3, .kmsh-h4, .kmsh-h5, .kmsh-h6{
+    font-family: $f-heading;
+}
+
+//Typography
+.kmsh-p{
+    font-family: $f-body;
+}
+.kmsh-strong{
+    font-weight:$f-boldweight;
+}
+
+// Colors
+.kmsh-main-1{
+    color: $c-main-1;
+}
+.kmsh-accent-2{
+    color: $c-accent-2;
+}
+.kmsh-accent-3{
+    color: $c-accent-3;
+}
+.kmsh-accent-4{
+    color: $c-accent-4;
+}
+.kmsh-accent-5{
+    color: $c-accent-5;
+}
+.kmsh-accent-6{
+    color: $c-accent-6;
+}
+.kmsh-accent-7{
+    color: $c-accent-7;
+}
+// Background colors
+.kmsh-bg-main-1{
+    background-color: $c-main-1;
+}
+.kmsh-bg-accent-2{
+    background-color: $c-accent-2;
+}
+.kmsh-bg-accent-3{
+    background-color: $c-accent-3;
+}
+.kmsh-bg-accent-4{
+    background-color: $c-accent-4;
+}
+.kmsh-bg-accent-5{
+    background-color: $c-accent-5;
+}
+.kmsh-bg-accent-6{
+    background-color: $c-accent-6;
+}
+.kmsh-bg-accent-7{
+    background-color: $c-accent-7;
+}

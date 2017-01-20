@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans|Playfair+Display");
+.kmsh-h1, h1, .kmsh-h2, h2, .kmsh-h3, h3, .kmsh-h4, h4, .kmsh-h5, h5, .kmsh-h6 {
+  font-family: "Playfair Display", serif; }
+
+.kmsh-p, p {
+  font-family: "Nunito Sans", sans-serif; }
+
+.kmsh-strong, strong {
+  font-weight: 1000; }
+
+.kmsh-main-1, .color-1 {
+  color: #3f43ad; }
+
+.kmsh-accent-2, .color-2 {
+  color: #00b199; }
+
+.kmsh-accent-3, .color-3 {
+  color: #5ec8e5; }
+
+.kmsh-accent-4, .color-4 {
+  color: #ff7548; }
+
+.kmsh-accent-5, .color-5 {
+  color: #ff9f37; }
+
+.kmsh-accent-6, .color-6 {
+  color: #f1b828; }
+
+.kmsh-accent-7, .color-7 {
+  color: #fbf59b; }
+
+.kmsh-bg-main-1, .bg-1 {
+  background-color: #3f43ad; }
+
+.kmsh-bg-accent-2, .bg-2 {
+  background-color: #00b199; }
+
+.kmsh-bg-accent-3, .bg-3 {
+  background-color: #5ec8e5; }
+
+.kmsh-bg-accent-4, .bg-4 {
+  background-color: #ff7548; }
+
+.kmsh-bg-accent-5, .bg-5 {
+  background-color: #ff9f37; }
+
+.kmsh-bg-accent-6, .bg-6 {
+  background-color: #f1b828; }
+
+.kmsh-bg-accent-7, .bg-7 {
+  background-color: #fbf59b; }
+
+.bg-1 {
+  color: white; }
+
+.bg-2 {
+  color: white; }
+
+.bg-3 {
+  color: white; }
+
+.bg-4 {
+  color: white; }
+
+.bg-5 {
+  color: white; }
+
+.bg-6 {
+  color: white; }
+
+.bg-7 {
+  color: black; }

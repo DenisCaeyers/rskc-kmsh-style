@@ -1,0 +1,5 @@
+.color-row {
+  margin-bottom: 15px; }
+  .color-row .color-cell div {
+    height: 100px;
+    padding: 15px; }
