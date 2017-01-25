@@ -2,53 +2,133 @@
 .kmsh-h1, h1, .kmsh-h2, h2, .kmsh-h3, h3, .kmsh-h4, h4, .kmsh-h5, h5, .kmsh-h6 {
   font-family: "Playfair Display", serif; }
 
+.kmsh-h1, h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 60px; }
+
+.kmsh-h2, h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px; }
+
+.kmsh-h3, h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 30px; }
+
+.kmsh-h4, h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 22px; }
+
 .kmsh-p, p {
   font-family: "Nunito Sans", sans-serif; }
 
 .kmsh-strong, strong {
   font-weight: 1000; }
 
+.kmsh-header-description, div.header-desc {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px; }
+
 .kmsh-main-1, .color-1 {
-  color: #3f43ad; }
+  color: #3150A3; }
 
 .kmsh-accent-2, .color-2 {
-  color: #00b199; }
+  color: #058461; }
 
 .kmsh-accent-3, .color-3 {
-  color: #5ec8e5; }
+  color: #51C7E0; }
 
 .kmsh-accent-4, .color-4 {
-  color: #ff7548; }
+  color: #F47954; }
 
 .kmsh-accent-5, .color-5 {
-  color: #ff9f37; }
+  color: #F89B45; }
 
 .kmsh-accent-6, .color-6 {
-  color: #f1b828; }
+  color: #EFB539; }
 
 .kmsh-accent-7, .color-7 {
-  color: #fbf59b; }
+  color: #F5F19B; }
+
+.kmsh-gray-1, .color-8 {
+  color: #EFEFF6; }
+
+.kmsh-gray-2, .color-9 {
+  color: #F6F4F4; }
 
 .kmsh-bg-main-1, .bg-1 {
-  background-color: #3f43ad; }
+  background-color: #3150A3; }
 
 .kmsh-bg-accent-2, .bg-2 {
-  background-color: #00b199; }
+  background-color: #058461; }
 
 .kmsh-bg-accent-3, .bg-3 {
-  background-color: #5ec8e5; }
+  background-color: #51C7E0; }
 
 .kmsh-bg-accent-4, .bg-4 {
-  background-color: #ff7548; }
+  background-color: #F47954; }
 
 .kmsh-bg-accent-5, .bg-5 {
-  background-color: #ff9f37; }
+  background-color: #F89B45; }
 
 .kmsh-bg-accent-6, .bg-6 {
-  background-color: #f1b828; }
+  background-color: #EFB539; }
 
 .kmsh-bg-accent-7, .bg-7 {
-  background-color: #fbf59b; }
+  background-color: #F5F19B; }
+
+.kmsh-bg-gray-1, .bg-8 {
+  background-color: #EFEFF6; }
+
+.kmsh-bg-gray-2, .bg-9 {
+  background-color: #F6F4F4; }
+
+.kmsh-btn-yellow, .btn-yellow {
+  border-color: #F5F19B;
+  font-size: 18px;
+  color: #F5F19B;
+  border-radius: 3px; }
+  .kmsh-btn-yellow:hover, .btn-yellow:hover {
+    background-color: #F5F19B;
+    color: white; }
+  .kmsh-btn-yellow:active, .btn-yellow:active, .kmsh-btn-yellow:focus, .btn-yellow:focus {
+    color: #F5F19B; }
+
+.kmsh-btn-blue, .btn-blue {
+  border-color: #3150A3;
+  font-size: 18px;
+  color: #3150A3;
+  border-radius: 3px; }
+  .kmsh-btn-blue:hover, .btn-blue:hover {
+    background-color: #3150A3;
+    color: white; }
+  .kmsh-btn-blue:active, .btn-blue:active, .kmsh-btn-blue:focus, .btn-blue:focus {
+    color: #3150A3; }
+
+.kmsh-btn-red, .btn-red {
+  border-color: #F47954;
+  font-size: 18px;
+  color: #F47954;
+  border-radius: 3px; }
+  .kmsh-btn-red:hover, .btn-red:hover {
+    background-color: #F47954;
+    color: white; }
+  .kmsh-btn-red:active, .btn-red:active, .kmsh-btn-red:focus, .btn-red:focus {
+    color: #F47954; }
+
+.kmsh-btn-green, .btn-green {
+  border-color: #058461;
+  font-size: 18px;
+  color: #058461;
+  border-radius: 3px; }
+  .kmsh-btn-green:hover, .btn-green:hover {
+    background-color: #058461;
+    color: white; }
+  .kmsh-btn-green:active, .btn-green:active, .kmsh-btn-green:focus, .btn-green:focus {
+    color: #058461; }
 
 .bg-1 {
   color: white; }
@@ -69,4 +149,10 @@
   color: white; }
 
 .bg-7 {
+  color: black; }
+
+.bg-8 {
+  color: black; }
+
+.bg-9 {
   color: black; }

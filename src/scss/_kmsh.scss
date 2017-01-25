@@ -8,6 +8,26 @@
 .kmsh-h1, .kmsh-h2, .kmsh-h3, .kmsh-h4, .kmsh-h5, .kmsh-h6{
     font-family: $f-heading;
 }
+.kmsh-h1{
+    font-family: $f-heading;
+    font-weight: bold;
+    font-size: 60px;
+}
+.kmsh-h2{
+    font-family: $f-heading;
+    font-weight: bold;
+    font-size: 50px;
+}
+.kmsh-h3{
+    font-family: $f-heading;
+    font-weight: bold;
+    font-size: 30px;
+}
+.kmsh-h4{
+    font-family: $f-heading;
+    font-weight: bold;
+    font-size: 22px;
+}
 
 //Typography
 .kmsh-p{
@@ -15,6 +35,11 @@
 }
 .kmsh-strong{
     font-weight:$f-boldweight;
+}
+
+.kmsh-header-description{
+    font-family: $f-body;
+    font-size: 24px;
 }
 
 // Colors
@@ -39,6 +64,12 @@
 .kmsh-accent-7{
     color: $c-accent-7;
 }
+.kmsh-gray-1{
+    color: $c-gray-1;
+}
+.kmsh-gray-2{
+    color: $c-gray-2;
+}
 // Background colors
 .kmsh-bg-main-1{
     background-color: $c-main-1;
@@ -60,4 +91,64 @@
 }
 .kmsh-bg-accent-7{
     background-color: $c-accent-7;
+}
+.kmsh-bg-gray-1{
+    background-color: $c-gray-1;
+}
+.kmsh-bg-gray-2{
+    background-color: $c-gray-2;
+}
+
+// Buttons
+.kmsh-btn-yellow{
+    border-color: $c-accent-7;
+    font-size: 18px;
+    color: $c-accent-7;
+    border-radius: 3px;
+    &:hover{
+        background-color: $c-accent-7;
+        color: white;
+    }
+    &:active,&:focus{
+        color: $c-accent-7;
+    }
+}
+.kmsh-btn-blue{
+    border-color: $c-main-1;
+    font-size: 18px;
+    color: $c-main-1;
+    border-radius: 3px;
+    &:hover{
+        background-color: $c-main-1;
+        color: white;
+    }
+    &:active,&:focus{
+        color: $c-main-1;
+    }
+}
+.kmsh-btn-red{
+    border-color: $c-accent-4;
+    font-size: 18px;
+    color: $c-accent-4;
+    border-radius: 3px;
+    &:hover{
+        background-color: $c-accent-4;
+        color: white;
+    }
+    &:active,&:focus{
+        color: $c-accent-4;
+    }
+}
+.kmsh-btn-green{
+    border-color: $c-accent-2;
+    font-size: 18px;
+    color: $c-accent-2;
+    border-radius: 3px;
+    &:hover{
+        background-color: $c-accent-2;
+        color: white;
+    }
+    &:active,&:focus{
+        color: $c-accent-2;
+    }
 }

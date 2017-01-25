@@ -24,6 +24,9 @@ p{
 strong{
     @extend .kmsh-strong;
 }
+div.header-desc{
+    @extend .kmsh-header-description;
+}
 
 // Colors
 .color-1{
@@ -47,39 +50,61 @@ strong{
 .color-7{
     @extend .kmsh-accent-7;
 }
+.color-8{
+    @extend .kmsh-gray-1;
+}
+.color-9{
+    @extend .kmsh-gray-2;
+}
 
 // Background Colors
 .bg-1{
     @extend .kmsh-bg-main-1;
     color: white;
 }
-
 .bg-2{
     @extend .kmsh-bg-accent-2;
     color: white;
 }
-
 .bg-3{
     @extend .kmsh-bg-accent-3;
     color: white;
 }
-
 .bg-4{
     @extend .kmsh-bg-accent-4;
     color: white;
 }
-
 .bg-5{
     @extend .kmsh-bg-accent-5;
     color: white;
 }
-
 .bg-6{
     @extend .kmsh-bg-accent-6;
     color: white;
 }
-
 .bg-7{
     @extend .kmsh-bg-accent-7;
     color: black;
+}
+.bg-8{
+    @extend .kmsh-bg-gray-1;
+    color: black;
+}
+.bg-9{
+    @extend .kmsh-bg-gray-2;
+    color: black;
+}
+
+//buttons
+.btn-yellow{
+    @extend .kmsh-btn-yellow;
+}
+.btn-blue{
+    @extend .kmsh-btn-blue;
+}
+.btn-red{
+    @extend .kmsh-btn-red;
+}
+.btn-green{
+    @extend .kmsh-btn-green;
 }

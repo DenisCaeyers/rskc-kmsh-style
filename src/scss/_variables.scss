@@ -1,12 +1,14 @@
 // ------ Declaration of the variables ------
 // Colors
-$c-kingsblue:rgba(63,67,173,1);
-$c-forestgreen:rgba(0,177,153,1);
-$c-frozenblue: rgba(94,200,229,1);
-$c-orangest: rgba(255,117,72,1);
-$c-orange: rgba(255,159,55,1);
-$c-okernutyellow: rgba(241,184,40,1);
-$c-postityellow:rgba(251,245,155,1);
+$c-kingsblue:#3150A3;
+$c-forestgreen:#058461;
+$c-frozenblue: #51C7E0;
+$c-orangest: #F47954;
+$c-orange: #F89B45;
+$c-okernutyellow: #EFB539;
+$c-postityellow:#F5F19B;
+$c-darkergray: #EFEFF6;
+$c-lightgray: #F6F4F4;
 
 // Fonts
 $f-playfair: 'Playfair Display', serif;
@@ -23,6 +25,8 @@ $c-accent-4: $c-orangest;
 $c-accent-5: $c-orange;
 $c-accent-6: $c-okernutyellow;
 $c-accent-7: $c-postityellow;
+$c-gray-1: $c-darkergray;
+$c-gray-2: $c-lightgray;
 
 // Fonts
 $f-heading: $f-playfair;
