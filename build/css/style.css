@@ -3,24 +3,43 @@
   font-family: "Playfair Display", serif; }
 
 .kmsh-h1, h1 {
-  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 60px; }
+  .kmsh-h1.kmsh-heading-bull, h1.kmsh-heading-bull, h1.heading-bull, .kmsh-h1.heading-bull {
+    margin-left: -37px; }
 
 .kmsh-h2, h2 {
-  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 50px; }
+  .kmsh-h2.kmsh-heading-bull, h2.kmsh-heading-bull, h2.heading-bull, .kmsh-h2.heading-bull {
+    margin-left: -35px; }
 
 .kmsh-h3, h3 {
-  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 30px; }
+  .kmsh-h3.kmsh-heading-bull, h3.kmsh-heading-bull, h3.heading-bull, .kmsh-h3.heading-bull {
+    margin-left: -24px; }
 
 .kmsh-h4, h4 {
-  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 22px; }
+  .kmsh-h4.kmsh-heading-bull, h4.kmsh-heading-bull, h4.heading-bull, .kmsh-h4.heading-bull {
+    margin-left: -20px; }
+
+.kmsh-heading-bull:before, .heading-bull:before {
+  content: "\2022";
+  margin-right: 10px;
+  color: #F47954; }
+
+.kmsh-arrow:after, .kmsh-list .kmsh-list-item:after, ul.list .kmsh-list-item:after, .kmsh-list ul.list li:after, ul.list .kmsh-list li:after, ul.list li:after {
+  content: "\2192";
+  margin-left: 15px;
+  color: #51C7E0; }
+
+.kmsh-default, body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px; }
 
 .kmsh-p, p {
   font-family: "Nunito Sans", sans-serif; }
@@ -30,7 +49,8 @@
 
 .kmsh-header-description, div.header-desc {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 24px; }
+  font-size: 24px;
+  line-height: 31px; }
 
 .kmsh-main-1, .color-1 {
   color: #3150A3; }
@@ -86,6 +106,26 @@
 .kmsh-bg-gray-2, .bg-9 {
   background-color: #F6F4F4; }
 
+.kmsh-box, div.box {
+  border-radius: 3px;
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px; }
+
+.kmsh-tagline, div.tagline {
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  color: #EFB539;
+  font-size: 14px;
+  line-height: 23px; }
+
+.kmsh-list, ul.list {
+  padding: 0; }
+  .kmsh-list .kmsh-list-item, ul.list .kmsh-list-item, .kmsh-list ul.list li, ul.list .kmsh-list li, ul.list li {
+    list-style: none;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+
 .kmsh-btn-yellow, .btn-yellow {
   border-color: #F5F19B;
   font-size: 18px;
@@ -128,6 +168,54 @@
     background-color: #058461;
     color: white; }
   .kmsh-btn-green:active, .btn-green:active, .kmsh-btn-green:focus, .btn-green:focus {
+    color: #058461; }
+
+.kmsh-btn-yellow-fill, .btn-yellow-fill {
+  border-color: #F5F19B;
+  background-color: #F5F19B;
+  font-size: 18px;
+  color: white;
+  border-radius: 3px; }
+  .kmsh-btn-yellow-fill:hover, .btn-yellow-fill:hover {
+    background-color: transparent;
+    color: #F5F19B; }
+  .kmsh-btn-yellow-fill:active, .btn-yellow-fill:active, .kmsh-btn-yellow-fill:focus, .btn-yellow-fill:focus {
+    color: #F5F19B; }
+
+.kmsh-btn-blue-fill, .btn-blue-fill {
+  border-color: #3150A3;
+  background-color: #3150A3;
+  font-size: 18px;
+  color: white;
+  border-radius: 3px; }
+  .kmsh-btn-blue-fill:hover, .btn-blue-fill:hover {
+    background-color: transparent;
+    color: #3150A3; }
+  .kmsh-btn-blue-fill:active, .btn-blue-fill:active, .kmsh-btn-blue-fill:focus, .btn-blue-fill:focus {
+    color: #3150A3; }
+
+.kmsh-btn-red-fill, .btn-red-fill {
+  border-color: #F47954;
+  background-color: #F47954;
+  font-size: 18px;
+  color: white;
+  border-radius: 3px; }
+  .kmsh-btn-red-fill:hover, .btn-red-fill:hover {
+    background-color: transparent;
+    color: #F47954; }
+  .kmsh-btn-red-fill:active, .btn-red-fill:active, .kmsh-btn-red-fill:focus, .btn-red-fill:focus {
+    color: #F47954; }
+
+.kmsh-btn-green-fill, .btn-green-fill {
+  border-color: #058461;
+  background-color: #058461;
+  font-size: 18px;
+  color: white;
+  border-radius: 3px; }
+  .kmsh-btn-green-fill:hover, .btn-green-fill:hover {
+    background-color: transparent;
+    color: #058461; }
+  .kmsh-btn-green-fill:active, .btn-green-fill:active, .kmsh-btn-green-fill:focus, .btn-green-fill:focus {
     color: #058461; }
 
 .bg-1 {

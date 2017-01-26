@@ -16,8 +16,14 @@ h4{
 h5{
     @extend .kmsh-h5;
 }
+.heading-bull{
+    @extend .kmsh-heading-bull;
+}
 
 // Typography
+body{
+    @extend .kmsh-default;
+}
 p{
     @extend .kmsh-p;
 }
@@ -95,6 +101,23 @@ div.header-desc{
     color: black;
 }
 
+// Elements
+/// Box
+div.box{
+    @extend .kmsh-box;
+}
+div.tagline{
+    @extend .kmsh-tagline;
+}
+
+// Lists
+ul.list{
+    @extend .kmsh-list;
+    li{
+        @extend .kmsh-list-item;
+    }
+}
+
 //buttons
 .btn-yellow{
     @extend .kmsh-btn-yellow;
@@ -107,4 +130,17 @@ div.header-desc{
 }
 .btn-green{
     @extend .kmsh-btn-green;
+}
+
+.btn-yellow-fill{
+    @extend .kmsh-btn-yellow-fill;
+}
+.btn-blue-fill{
+    @extend .kmsh-btn-blue-fill;
+}
+.btn-red-fill{
+    @extend .kmsh-btn-red-fill;
+}
+.btn-green-fill{
+    @extend .kmsh-btn-green-fill;
 }

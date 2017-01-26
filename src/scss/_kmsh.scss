@@ -9,37 +9,67 @@
     font-family: $f-heading;
 }
 .kmsh-h1{
-    font-family: $f-heading;
     font-weight: bold;
     font-size: 60px;
+    &.kmsh-heading-bull{
+        margin-left: -37px;
+    }
 }
 .kmsh-h2{
-    font-family: $f-heading;
     font-weight: bold;
     font-size: 50px;
+    &.kmsh-heading-bull{
+        margin-left: -35px;
+    }
 }
 .kmsh-h3{
-    font-family: $f-heading;
     font-weight: bold;
     font-size: 30px;
+    &.kmsh-heading-bull{
+        margin-left: -24px;
+    }
 }
 .kmsh-h4{
-    font-family: $f-heading;
     font-weight: bold;
     font-size: 22px;
+    &.kmsh-heading-bull{
+        margin-left: -20px;
+    }
+}
+
+.kmsh-heading-bull{
+    &:before{
+        content: "\2022";
+        margin-right: 10px;
+        color: $c-accent-4;
+    }
+}
+
+// Links
+.kmsh-arrow{
+    &:after{
+        content: "\2192";
+        margin-left: 15px;
+        color: $c-accent-3;
+    }
 }
 
 //Typography
+.kmsh-default{
+    font-family: $f-body;
+    font-size: 18px;
+    line-height: 24px;
+}
 .kmsh-p{
     font-family: $f-body;
 }
 .kmsh-strong{
     font-weight:$f-boldweight;
 }
-
 .kmsh-header-description{
     font-family: $f-body;
     font-size: 24px;
+    line-height: 31px;
 }
 
 // Colors
@@ -99,6 +129,33 @@
     background-color: $c-gray-2;
 }
 
+// Elements
+/// Box
+.kmsh-box{
+    border-radius: 3px;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.kmsh-tagline{
+    font-family: $f-body;
+    text-transform: uppercase;
+    color: $c-accent-6;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/// Lists
+.kmsh-list{
+    padding: 0;
+    .kmsh-list-item{
+        @extend .kmsh-arrow;
+        list-style: none;
+        font-size: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
 // Buttons
 .kmsh-btn-yellow{
     border-color: $c-accent-7;
@@ -147,6 +204,64 @@
     &:hover{
         background-color: $c-accent-2;
         color: white;
+    }
+    &:active,&:focus{
+        color: $c-accent-2;
+    }
+}
+
+// Buttons filled
+.kmsh-btn-yellow-fill{
+    border-color: $c-accent-7;
+    background-color: $c-accent-7;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    &:hover{
+        background-color: transparent;
+        color: $c-accent-7;
+    }
+    &:active,&:focus{
+        color: $c-accent-7;
+    }
+}
+.kmsh-btn-blue-fill{
+    border-color: $c-main-1;
+    background-color: $c-main-1;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    &:hover{
+        background-color: transparent;
+        color: $c-main-1;
+    }
+    &:active,&:focus{
+        color: $c-main-1;
+    }
+}
+.kmsh-btn-red-fill{
+    border-color: $c-accent-4;
+    background-color: $c-accent-4;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    &:hover{
+        background-color: transparent;
+        color: $c-accent-4;
+    }
+    &:active,&:focus{
+        color: $c-accent-4;
+    }
+}
+.kmsh-btn-green-fill{
+    border-color: $c-accent-2;
+    background-color: $c-accent-2;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    &:hover{
+        background-color: transparent;
+        color:$c-accent-2;
     }
     &:active,&:focus{
         color: $c-accent-2;
