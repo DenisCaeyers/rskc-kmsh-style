@@ -41,7 +41,7 @@
     &:before{
         content: "\2022";
         margin-right: 10px;
-        color: $c-accent-4;
+        color: $c-accent-3;
     }
 }
 
@@ -50,7 +50,7 @@
     &:after{
         content: "\2192";
         margin-left: 15px;
-        color: $c-accent-3;
+        color: $c-accent-6;
     }
 }
 
@@ -139,7 +139,7 @@
 .kmsh-tagline{
     font-family: $f-body;
     text-transform: uppercase;
-    color: $c-accent-6;
+    color: $c-accent-4;
     font-size: 14px;
     line-height: 23px;
 }
@@ -164,7 +164,7 @@
     border-radius: 3px;
     &:hover{
         background-color: $c-accent-7;
-        color: white;
+        color:$c-black-1;
     }
     &:active,&:focus{
         color: $c-accent-7;
@@ -184,16 +184,16 @@
     }
 }
 .kmsh-btn-red{
-    border-color: $c-accent-4;
+    border-color: $c-accent-3;
     font-size: 18px;
-    color: $c-accent-4;
+    color: $c-accent-3;
     border-radius: 3px;
     &:hover{
-        background-color: $c-accent-4;
+        background-color: $c-accent-3;
         color: white;
     }
     &:active,&:focus{
-        color: $c-accent-4;
+        color: $c-accent-3;
     }
 }
 .kmsh-btn-green{
@@ -215,7 +215,7 @@
     border-color: $c-accent-7;
     background-color: $c-accent-7;
     font-size: 18px;
-    color: white;
+    color:$c-black-1;
     border-radius: 3px;
     &:hover{
         background-color: transparent;
@@ -240,17 +240,17 @@
     }
 }
 .kmsh-btn-red-fill{
-    border-color: $c-accent-4;
-    background-color: $c-accent-4;
+    border-color: $c-accent-3;
+    background-color: $c-accent-3;
     font-size: 18px;
     color: white;
     border-radius: 3px;
     &:hover{
         background-color: transparent;
-        color: $c-accent-4;
+        color: $c-accent-3;
     }
     &:active,&:focus{
-        color: $c-accent-4;
+        color: $c-accent-3;
     }
 }
 .kmsh-btn-green-fill{
