@@ -147,8 +147,6 @@
   .kmsh-btn-yellow:hover, .btn-yellow:hover {
     background-color: #F2F0A1;
     color: #4B4948; }
-  .kmsh-btn-yellow:active, .btn-yellow:active {
-    color: #F2F0A1; }
 
 .kmsh-btn-blue, .btn-blue {
   border-color: #3A5DAE;
@@ -158,8 +156,6 @@
   .kmsh-btn-blue:hover, .btn-blue:hover {
     background-color: #3A5DAE;
     color: white; }
-  .kmsh-btn-blue:active, .btn-blue:active {
-    color: #3A5DAE; }
 
 .kmsh-btn-red, .btn-red {
   border-color: #FF671F;
@@ -169,8 +165,6 @@
   .kmsh-btn-red:hover, .btn-red:hover {
     background-color: #FF671F;
     color: white; }
-  .kmsh-btn-red:active, .btn-red:active {
-    color: #FF671F; }
 
 .kmsh-btn-green, .btn-green {
   border-color: #00AF66;
@@ -180,8 +174,6 @@
   .kmsh-btn-green:hover, .btn-green:hover {
     background-color: #00AF66;
     color: white; }
-  .kmsh-btn-green:active, .btn-green:active {
-    color: #00AF66; }
 
 .kmsh-btn-yellow-fill, .btn-yellow-fill {
   border-color: #F2F0A1;
@@ -191,8 +183,6 @@
   border-radius: 3px; }
   .kmsh-btn-yellow-fill:hover, .btn-yellow-fill:hover {
     background-color: transparent;
-    color: #F2F0A1; }
-  .kmsh-btn-yellow-fill:active, .btn-yellow-fill:active {
     color: #F2F0A1; }
 
 .kmsh-btn-blue-fill, .btn-blue-fill {
@@ -204,8 +194,6 @@
   .kmsh-btn-blue-fill:hover, .btn-blue-fill:hover {
     background-color: transparent;
     color: #3A5DAE; }
-  .kmsh-btn-blue-fill:active, .btn-blue-fill:active {
-    color: #3A5DAE; }
 
 .kmsh-btn-red-fill, .btn-red-fill {
   border-color: #FF671F;
@@ -216,8 +204,6 @@
   .kmsh-btn-red-fill:hover, .btn-red-fill:hover {
     background-color: transparent;
     color: #FF671F; }
-  .kmsh-btn-red-fill:active, .btn-red-fill:active {
-    color: #FF671F; }
 
 .kmsh-btn-green-fill, .btn-green-fill {
   border-color: #00AF66;
@@ -227,8 +213,6 @@
   border-radius: 3px; }
   .kmsh-btn-green-fill:hover, .btn-green-fill:hover {
     background-color: transparent;
-    color: #00AF66; }
-  .kmsh-btn-green-fill:active, .btn-green-fill:active {
     color: #00AF66; }
 
 .bg-1 {
