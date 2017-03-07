@@ -5,9 +5,14 @@
 @import "variables";
 
 //Headings
-.kmsh-h1, .kmsh-h2, .kmsh-h3, .kmsh-h4, .kmsh-h5, .kmsh-h6{
+.kmsh-h1, .kmsh-h2, .kmsh-h3, .kmsh-h4{
     font-family: $f-heading;
 }
+
+.kmsh-h5, .kmsh-h6{
+    font-family: $f-body;
+}
+
 .kmsh-h1{
     font-weight: bold;
     font-size: 60px;
@@ -36,6 +41,21 @@
         margin-left: -20px;
     }
 }
+
+.kmsh-h5{
+    font-weight: bold;
+    &.kmsh-heading-bull{
+        margin-left: -20px;
+    }
+}
+
+.kmsh-h6{
+    font-weight: bold;
+    &.kmsh-heading-bull{
+        margin-left: -20px;
+    }
+}
+
 
 .kmsh-heading-bull{
     &:before{
@@ -166,7 +186,7 @@
         background-color: $c-accent-7;
         color:$c-black-1;
     }
-    &:active,&:focus{
+    &:active{
         color: $c-accent-7;
     }
 }
@@ -179,7 +199,7 @@
         background-color: $c-main-1;
         color: white;
     }
-    &:active,&:focus{
+    &:active{
         color: $c-main-1;
     }
 }
@@ -192,7 +212,7 @@
         background-color: $c-accent-3;
         color: white;
     }
-    &:active,&:focus{
+    &:active{
         color: $c-accent-3;
     }
 }
@@ -205,7 +225,7 @@
         background-color: $c-accent-2;
         color: white;
     }
-    &:active,&:focus{
+    &:active{
         color: $c-accent-2;
     }
 }
@@ -221,7 +241,7 @@
         background-color: transparent;
         color: $c-accent-7;
     }
-    &:active,&:focus{
+    &:active{
         color: $c-accent-7;
     }
 }
@@ -235,7 +255,7 @@
         background-color: transparent;
         color: $c-main-1;
     }
-    &:active,&:focus{
+    &:active{
         color: $c-main-1;
     }
 }
@@ -249,7 +269,7 @@
         background-color: transparent;
         color: $c-accent-3;
     }
-    &:active,&:focus{
+    &:active{
         color: $c-accent-3;
     }
 }
@@ -263,7 +283,7 @@
         background-color: transparent;
         color:$c-accent-2;
     }
-    &:active,&:focus{
+    &:active{
         color: $c-accent-2;
     }
 }
