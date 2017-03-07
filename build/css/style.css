@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans|Playfair+Display");
 .kmsh-h1, h1, .kmsh-h2, h2, .kmsh-h3, h3, .kmsh-h4, h4 {
   font-family: "Playfair Display", serif; }
@@ -144,7 +145,11 @@
   font-size: 18px;
   color: #F2F0A1;
   border-radius: 3px; }
-  .kmsh-btn-yellow:hover, .btn-yellow:hover {
+  .kmsh-btn-yellow:hover, .btn-yellow:hover,
+      .kmsh-btn-yellow:focus,
+      .btn-yellow:focus,
+      .kmsh-btn-yellow:active,
+      .btn-yellow:active {
     background-color: #F2F0A1;
     color: #4B4948; }
 
@@ -153,7 +158,11 @@
   font-size: 18px;
   color: #3A5DAE;
   border-radius: 3px; }
-  .kmsh-btn-blue:hover, .btn-blue:hover {
+  .kmsh-btn-blue:hover, .btn-blue:hover,
+      .kmsh-btn-blue:focus,
+      .btn-blue:focus,
+      .kmsh-btn-blue:active,
+      .btn-blue:active {
     background-color: #3A5DAE;
     color: white; }
 
@@ -162,7 +171,11 @@
   font-size: 18px;
   color: #FF671F;
   border-radius: 3px; }
-  .kmsh-btn-red:hover, .btn-red:hover {
+  .kmsh-btn-red:hover, .btn-red:hover,
+      .kmsh-btn-red:focus,
+      .btn-red:focus,
+      .kmsh-btn-red:active,
+      .btn-red:active {
     background-color: #FF671F;
     color: white; }
 
@@ -171,7 +184,11 @@
   font-size: 18px;
   color: #00AF66;
   border-radius: 3px; }
-  .kmsh-btn-green:hover, .btn-green:hover {
+  .kmsh-btn-green:hover, .btn-green:hover,
+      .kmsh-btn-green:focus,
+      .btn-green:focus,
+      .kmsh-btn-green:active,
+      .btn-green:active {
     background-color: #00AF66;
     color: white; }
 
@@ -181,7 +198,11 @@
   font-size: 18px;
   color: #4B4948;
   border-radius: 3px; }
-  .kmsh-btn-yellow-fill:hover, .btn-yellow-fill:hover {
+  .kmsh-btn-yellow-fill:hover, .btn-yellow-fill:hover,
+      .kmsh-btn-yellow-fill:focus,
+      .btn-yellow-fill:focus,
+      .kmsh-btn-yellow-fill:active,
+      .btn-yellow-fill:active {
     background-color: transparent;
     color: #F2F0A1; }
 
@@ -191,7 +212,11 @@
   font-size: 18px;
   color: white;
   border-radius: 3px; }
-  .kmsh-btn-blue-fill:hover, .btn-blue-fill:hover {
+  .kmsh-btn-blue-fill:hover, .btn-blue-fill:hover,
+      .kmsh-btn-blue-fill:focus,
+      .btn-blue-fill:focus,
+      .kmsh-btn-blue-fill:active,
+      .btn-blue-fill:active {
     background-color: transparent;
     color: #3A5DAE; }
 
@@ -201,7 +226,11 @@
   font-size: 18px;
   color: white;
   border-radius: 3px; }
-  .kmsh-btn-red-fill:hover, .btn-red-fill:hover {
+  .kmsh-btn-red-fill:hover, .btn-red-fill:hover,
+      .kmsh-btn-red-fill:focus,
+      .btn-red-fill:focus,
+      .kmsh-btn-red-fill:active,
+      .btn-red-fill:active {
     background-color: transparent;
     color: #FF671F; }
 
@@ -211,7 +240,11 @@
   font-size: 18px;
   color: white;
   border-radius: 3px; }
-  .kmsh-btn-green-fill:hover, .btn-green-fill:hover {
+  .kmsh-btn-green-fill:hover, .btn-green-fill:hover,
+      .kmsh-btn-green-fill:focus,
+      .btn-green-fill:focus,
+      .kmsh-btn-green-fill:active,
+      .btn-green-fill:active {
     background-color: transparent;
     color: #00AF66; }
 

@@ -182,7 +182,10 @@
     font-size: 18px;
     color: $c-accent-7;
     border-radius: 3px;
-    &:hover{
+    &:hover,
+    &:focus,
+    &:active 
+    {
         background-color: $c-accent-7;
         color:$c-black-1;
     }
@@ -192,7 +195,10 @@
     font-size: 18px;
     color: $c-main-1;
     border-radius: 3px;
-    &:hover{
+    &:hover,
+    &:focus,
+    &:active 
+    {
         background-color: $c-main-1;
         color: white;
     }
@@ -202,7 +208,10 @@
     font-size: 18px;
     color: $c-accent-3;
     border-radius: 3px;
-    &:hover{
+    &:hover,
+    &:focus,
+    &:active 
+    {
         background-color: $c-accent-3;
         color: white;
     }
@@ -212,7 +221,10 @@
     font-size: 18px;
     color: $c-accent-2;
     border-radius: 3px;
-    &:hover{
+    &:hover,
+    &:focus,
+    &:active 
+    {
         background-color: $c-accent-2;
         color: white;
     }
@@ -225,7 +237,10 @@
     font-size: 18px;
     color:$c-black-1;
     border-radius: 3px;
-    &:hover{
+    &:hover,
+    &:focus,
+    &:active 
+    {
         background-color: transparent;
         color: $c-accent-7;
     }
@@ -236,7 +251,10 @@
     font-size: 18px;
     color: white;
     border-radius: 3px;
-    &:hover{
+    &:hover,
+    &:focus,
+    &:active 
+    {
         background-color: transparent;
         color: $c-main-1;
     }
@@ -247,7 +265,10 @@
     font-size: 18px;
     color: white;
     border-radius: 3px;
-    &:hover{
+    &:hover,
+    &:focus,
+    &:active 
+    {
         background-color: transparent;
         color: $c-accent-3;
     }
@@ -258,7 +279,10 @@
     font-size: 18px;
     color: white;
     border-radius: 3px;
-    &:hover{
+    &:hover,
+    &:focus,
+    &:active 
+    {
         background-color: transparent;
         color:$c-accent-2;
     }
