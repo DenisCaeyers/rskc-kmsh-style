@@ -132,15 +132,28 @@ ul.list{
     @extend .kmsh-btn-green;
 }
 
-.btn-yellow-fill{
-    @extend .kmsh-btn-yellow-fill;
+.btn-yellow.active{
+    @extend .kmsh-btn-yellow.active;
 }
-.btn-blue-fill{
-    @extend .kmsh-btn-blue-fill;
+.btn-blue.active{
+    @extend .kmsh-btn-blue.active;
 }
-.btn-red-fill{
-    @extend .kmsh-btn-red-fill;
+.btn-red.active{
+    @extend .kmsh-btn-red.active;
 }
-.btn-green-fill{
-    @extend .kmsh-btn-green-fill;
+.btn-green.active{
+    @extend .kmsh-btn-green.active;
+}
+
+.btn-yellow-fill.active{
+    @extend .kmsh-btn-yellow-fill.active;
+}
+.btn-blue-fill.active{
+    @extend .kmsh-btn-blue-fill.active;
+}
+.btn-red-fill.active{
+    @extend .kmsh-btn-red-fill.active;
+}
+.btn-green-fill.active{
+    @extend .kmsh-btn-green-fill.active;
 }

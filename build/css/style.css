@@ -153,6 +153,10 @@
     background-color: #F2F0A1;
     color: #4B4948; }
 
+.kmsh-btn-yellow.active, .active.btn-yellow {
+  background-color: #F2F0A1;
+  color: #4B4948; }
+
 .kmsh-btn-blue, .btn-blue {
   border-color: #3A5DAE;
   font-size: 18px;
@@ -165,6 +169,10 @@
       .btn-blue:active {
     background-color: #3A5DAE;
     color: white; }
+
+.kmsh-btn-blue.active, .active.btn-blue {
+  background-color: #3A5DAE;
+  color: white; }
 
 .kmsh-btn-red, .btn-red {
   border-color: #FF671F;
@@ -179,6 +187,10 @@
     background-color: #FF671F;
     color: white; }
 
+.kmsh-btn-red.active, .active.btn-red {
+  background-color: #FF671F;
+  color: white; }
+
 .kmsh-btn-green, .btn-green {
   border-color: #00AF66;
   font-size: 18px;
@@ -192,61 +204,73 @@
     background-color: #00AF66;
     color: white; }
 
-.kmsh-btn-yellow-fill, .btn-yellow-fill {
+.kmsh-btn-green.active, .active.btn-green {
+  background-color: #00AF66;
+  color: white; }
+
+.kmsh-btn-yellow-fill {
   border-color: #F2F0A1;
   background-color: #F2F0A1;
   font-size: 18px;
   color: #4B4948;
   border-radius: 3px; }
-  .kmsh-btn-yellow-fill:hover, .btn-yellow-fill:hover,
+  .kmsh-btn-yellow-fill:hover,
       .kmsh-btn-yellow-fill:focus,
-      .btn-yellow-fill:focus,
-      .kmsh-btn-yellow-fill:active,
-      .btn-yellow-fill:active {
+      .kmsh-btn-yellow-fill:active {
     background-color: transparent;
     color: #F2F0A1; }
 
-.kmsh-btn-blue-fill, .btn-blue-fill {
+.kmsh-btn-yellow-fill.active, .btn-yellow-fill.active {
+  background-color: transparent;
+  color: #F2F0A1; }
+
+.kmsh-btn-blue-fill {
   border-color: #3A5DAE;
   background-color: #3A5DAE;
   font-size: 18px;
   color: white;
   border-radius: 3px; }
-  .kmsh-btn-blue-fill:hover, .btn-blue-fill:hover,
+  .kmsh-btn-blue-fill:hover,
       .kmsh-btn-blue-fill:focus,
-      .btn-blue-fill:focus,
-      .kmsh-btn-blue-fill:active,
-      .btn-blue-fill:active {
+      .kmsh-btn-blue-fill:active {
     background-color: transparent;
     color: #3A5DAE; }
 
-.kmsh-btn-red-fill, .btn-red-fill {
+.kmsh-btn-blue-fill.active, .btn-blue-fill.active {
+  background-color: transparent;
+  color: #3A5DAE; }
+
+.kmsh-btn-red-fill {
   border-color: #FF671F;
   background-color: #FF671F;
   font-size: 18px;
   color: white;
   border-radius: 3px; }
-  .kmsh-btn-red-fill:hover, .btn-red-fill:hover,
+  .kmsh-btn-red-fill:hover,
       .kmsh-btn-red-fill:focus,
-      .btn-red-fill:focus,
-      .kmsh-btn-red-fill:active,
-      .btn-red-fill:active {
+      .kmsh-btn-red-fill:active {
     background-color: transparent;
     color: #FF671F; }
 
-.kmsh-btn-green-fill, .btn-green-fill {
+.kmsh-btn-red-fill.active, .btn-red-fill.active {
+  background-color: transparent;
+  color: #FF671F; }
+
+.kmsh-btn-green-fill {
   border-color: #00AF66;
   background-color: #00AF66;
   font-size: 18px;
   color: white;
   border-radius: 3px; }
-  .kmsh-btn-green-fill:hover, .btn-green-fill:hover,
+  .kmsh-btn-green-fill:hover,
       .kmsh-btn-green-fill:focus,
-      .btn-green-fill:focus,
-      .kmsh-btn-green-fill:active,
-      .btn-green-fill:active {
+      .kmsh-btn-green-fill:active {
     background-color: transparent;
     color: #00AF66; }
+
+.kmsh-btn-green-fill.active, .btn-green-fill.active {
+  background-color: transparent;
+  color: #00AF66; }
 
 .bg-1 {
   color: white; }

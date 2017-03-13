@@ -190,6 +190,12 @@
         color:$c-black-1;
     }
 }
+
+.kmsh-btn-yellow.active{
+    background-color: $c-accent-7;
+    color:$c-black-1;
+}
+
 .kmsh-btn-blue{
     border-color: $c-main-1;
     font-size: 18px;
@@ -203,6 +209,12 @@
         color: white;
     }
 }
+
+.kmsh-btn-blue.active{
+    background-color: $c-main-1;
+    color: white; 
+}
+
 .kmsh-btn-red{
     border-color: $c-accent-3;
     font-size: 18px;
@@ -216,6 +228,12 @@
         color: white;
     }
 }
+
+.kmsh-btn-red.active{
+    background-color: $c-accent-3;
+    color: white;
+}
+
 .kmsh-btn-green{
     border-color: $c-accent-2;
     font-size: 18px;
@@ -228,6 +246,11 @@
         background-color: $c-accent-2;
         color: white;
     }
+}
+
+.kmsh-btn-green.active{
+    background-color: $c-accent-2;
+    color: white;
 }
 
 // Buttons filled
@@ -245,6 +268,12 @@
         color: $c-accent-7;
     }
 }
+
+.kmsh-btn-yellow-fill.active{
+    background-color: transparent;
+    color: $c-accent-7;
+}
+
 .kmsh-btn-blue-fill{
     border-color: $c-main-1;
     background-color: $c-main-1;
@@ -259,6 +288,12 @@
         color: $c-main-1;
     }
 }
+
+.kmsh-btn-blue-fill.active{
+    background-color: transparent;
+    color: $c-main-1;
+}
+
 .kmsh-btn-red-fill{
     border-color: $c-accent-3;
     background-color: $c-accent-3;
@@ -273,6 +308,12 @@
         color: $c-accent-3;
     }
 }
+
+.kmsh-btn-red-fill.active{
+    background-color: transparent;
+    color: $c-accent-3;
+}
+
 .kmsh-btn-green-fill{
     border-color: $c-accent-2;
     background-color: $c-accent-2;
@@ -286,4 +327,9 @@
         background-color: transparent;
         color:$c-accent-2;
     }
+}
+
+.kmsh-btn-green-fill.active{
+    background-color: transparent;
+    color:$c-accent-2;    
 }
